@@ -4,9 +4,9 @@ class Users < ActiveRecord::Migration
             t.string     :username, :limit => 32, :null => false
             t.string     :password
             t.text       :image
-            t.timestamps 
+            t.timestamps
          end
-    
+
   end
 
   def self.down
